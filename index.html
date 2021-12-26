@@ -10,7 +10,7 @@
 		font-family: calibri;
 		font-variant: small-caps;
 		font-weight: bold;
-		font-size: 40px;
+		font-size: 50px;
 		text-shadow: 1px 1px 1px #ff9196;
 	}
 	h2 {
@@ -21,13 +21,14 @@
 		font-family: calibri;
 		font-variant: small-caps;
 		font-style: italic;
-		font-size: 20px;
+		font-size: 17px;
+		font-weight: normal;
 	}
 	p {
 		text-align: center;
 		font-family: calibri;
 		font-weight: bold;
-		font-size: 24px;
+		font-size: 28px;
 		font-variant: small-caps;
 		text-shadow: 1px 1px 1px #ff9196;
 	}
@@ -41,6 +42,14 @@
 		margin-right: auto;
 		overflow: hidden;
 	}
+	footer {
+		text-align: center;
+		font-family: calibri;
+		font-variant: small-caps;
+		font-style: italic;
+		font-size: 17px;
+		font-weight: normal;
+	}
 
 </style>
 <title>Wonderland Stats</title>
@@ -48,13 +57,15 @@
 <body>
 
 
-<h1>Wonderland Stats and Holdings over Time</h1>
+<h1>Wonderland Stats</h1>
 
 
 <h2>
-<a href="https://thingspeak.com/channels/1616375" target="_blank">thingspeak channel</a>
+<a href="https://github.com/RanjeetPajeet/Wonderland-Info" target="_blank">github</a>
 <br>
-<a href="https://api.thingspeak.com/channels/1616375/fields/3,4.csv?results=8000" target="_blank">export data (price/apy)</a>
+<a href="https://thingspeak.com/channels/1616375" target="_blank">thingspeak page</a>
+<br>
+<a href="https://api.thingspeak.com/channels/1616375/fields/3,4.csv?results=8000" target="_blank">export price/apy data</a>
 </h2>
 
 
@@ -62,15 +73,11 @@
 
 
 <p>Current Holdings & Value</p>
-<iframe width="450" height="180" style="border: 1.5px solid #707070;" src="https://thingspeak.com/channels/1616375/widgets/401023"></iframe>
-<iframe width="450" height="180" style="border: 1.5px solid #707070;" src="https://thingspeak.com/channels/1616375/widgets/401656"></iframe>
+<iframe width="450" height="175" style="border: 1.5px solid #707070;" src="https://thingspeak.com/channels/1616375/widgets/401023"></iframe>
+<iframe width="450" height="175" style="border: 1.5px solid #707070;" src="https://thingspeak.com/channels/1616375/widgets/401656"></iframe>
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
+<br><br><br><br><br><br>
 
 
 <p>Holdings & Value over time</p>
@@ -79,22 +86,16 @@
 <iframe width="450" height="218" style="border: 1.5px solid #707070; padding-bottom: 30px;" scrolling="no" src="https://thingspeak.com/channels/1616375/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&median=60&results=10000&round=2&title=Value+of+Holdings&type=spline&xaxis=Date%2FTime&yaxis=Value+%28%24%29"></iframe>
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<br><br><br><br><br><br>
 
 
 <p>Price & APY over time</p>
 <iframe width="450" height="218" style="border: 1.5px solid #707070; padding-bottom: 30px;" scrolling="no" src="https://thingspeak.com/channels/1616375/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&median=60&results=10000&round=2&title=Token+Price&type=spline&xaxis=Date%2FTime&yaxis=Price+%28%24%29"></iframe>
 <br>
-<iframe width="450" height="218" style="border: 1.5px solid #707070; padding-bottom: 30px;" scrolling="no" src="https://thingspeak.com/channels/1616375/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&median=60&results=10000&round=0&title=APY&type=line&xaxis=Date%2FTime&yaxis=Yield+%28%25%29&yaxismin=65000"></iframe>
+<iframe width="450" height="218" style="border: 1.5px solid #707070; padding-bottom: 30px;" scrolling="no" src="https://thingspeak.com/channels/1616375/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&median=60&results=10000&round=0&title=APY&type=line&xaxis=Date%2FTime&yaxis=Yield+%28%25%29&yaxismax=100000"></iframe>
 
 
-<br>
-<br>
+<br><br>
 
 
 </body>
