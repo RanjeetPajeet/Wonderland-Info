@@ -2,7 +2,7 @@
 
 Tracks your Wonderland stake over time and displays on a dynamic dashboard
 
-index.html  -  
+index.html  -  HTML code for the dashboard
 
 thingspeak1.m  -  
 thingspeak2.m  -  
