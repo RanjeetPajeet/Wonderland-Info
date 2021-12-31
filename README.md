@@ -1,6 +1,6 @@
 # Wonderland-Info
 
-mywonderlandstats@gmail.com, Lookay                                            
+wonderlandstats@protonmail.com, Lookay                                            
 Tracks your Wonderland stake over time and displays on a dynamic dashboard
 
 index.html  -  HTML code for the dashboard
